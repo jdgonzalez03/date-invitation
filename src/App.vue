@@ -1,0 +1,29 @@
+<script setup>
+import DateInvitation from '@/components/DateInvitation.vue'
+</script>
+
+<template>
+  <DateInvitation />
+</template>
+
+<style>
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+</style>
